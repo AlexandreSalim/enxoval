@@ -1,0 +1,7 @@
+{
+  "name": "enxoval",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
