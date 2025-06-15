@@ -17,7 +17,7 @@ export class HomePage {
   itens = ['item1', 'item2', 'item3', 'item4'];
 
   getWhatsAppLink(item: any): string {
-  const msg = `Olá, quero ajudar vocês comprando esse ${item.item}`;
+  const msg = `Olá, quero ajudar vocês comprando esse ${item}`;
   const encodedMsg = encodeURIComponent(msg);
   return `https://wa.me/5521975616399?text=${encodedMsg}`;
   }
